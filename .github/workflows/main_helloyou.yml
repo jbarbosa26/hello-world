@@ -35,6 +35,7 @@ jobs:
             ${{ runner.os }}-dotnet-
 
       - name: Set up .NET Core
+        if: steps.cache-dotnet-core.outputs.cache-hit != 'true'
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: '8.x'
