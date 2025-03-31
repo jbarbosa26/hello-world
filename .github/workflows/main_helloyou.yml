@@ -27,6 +27,7 @@ jobs:
             ${{ runner.os }}-nuget-
 
       - name: Cache .NET core SDK
+        id: cache-dotnet-core
         uses: actions/cache@v3
         with:
           path: ~/.dotnet
