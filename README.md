@@ -1,4 +1,4 @@
-# WebGoatCore for .NET 7
+# WebGoatCore for .NET 8
 
 ## The next generation of the WebGoat example project to demonstrate OWASP TOP 10 vulnerabilities
 
@@ -22,7 +22,7 @@ RUNNING!
    `--disable-xss-auditor`.
 
 ## Requirements
-- .NET 7 SDK
+- .NET 8 SDK
 
 ## GitHub Codespaces
 This application has a GitHub Codespace configuration that will allow you to run a Codespace and debug the application if you are demoing in GitHub.
